@@ -15,7 +15,7 @@ class MuzeListesi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Müze Rehberi'),),
+      appBar: AppBar(title: Text('Müze Rehberi'),backgroundColor: Color(0xFF06151E)),
       body: Center(
           child:ListView.builder(itemBuilder: (context, index){
             return muzeItem(listelenenMuze:tumMuzeler[index]);
